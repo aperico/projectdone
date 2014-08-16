@@ -1,3 +1,3 @@
 projectdone
 ===========
-Provides a graphical environment which support and guides the development of a given project.
+Provides a graphical environment which supports and guides the development of a given project.
