@@ -1,19 +1,26 @@
 # projectdone
 
-
 Provides a graphical environment which supports and guides the development of a given project.
 
+## Main features
+* Supports generation of consistent project documentation
+* Guides developer throughout each step of the project development processes
+* Makes it easy to develop a project aiming specific ISO certification
+    
 
-#Dependencies
+##Dependencies
 * On Fedora:
-  pywebkitgtk
-    -> sudo yum install pywebkitgtk
+pywebkitgtk
+```bash
+    sudo yum install pywebkitgtk
+```
 * On Ubuntu:
-  python-webkit
+python-webkit
+```bash
     -> apt-get install python-webkit
-
-#References
-* Project Management: http://en.wikipedia.org/wiki/Project_management
-* ISO26262: http://en.wikipedia.org/wiki/ISO_26262
-* ISO15505: http://en.wikipedia.org/wiki/ISO/IEC_15504
-* V-MODEL: http://en.wikipedia.org/wiki/V-Model
+```
+##References
+* **Project Management** - http://en.wikipedia.org/wiki/Project_management
+* **ISO26262** - http://en.wikipedia.org/wiki/ISO_26262
+* **ISO15505** - http://en.wikipedia.org/wiki/ISO/IEC_15504
+* **V-MODEL** - http://en.wikipedia.org/wiki/V-Model
