@@ -2,6 +2,8 @@
 
 Provides a graphical environment which supports and guides the development of a given project. The main goal of this project is to support development teams to achieve a minimum level of documentation needed for the project without pain while keeping strong structure of development during the life-cycle of the project.
 
+Check out our [wiki](https://github.com/aperico/projectdone/wiki)!
+
 ## Main features
 * Guides the team step-by-step over the different phases of development following pre-defined well-known processes e.g.: [V-Model](http://en.wikipedia.org/wiki/V-Model)
    - Concept phase
