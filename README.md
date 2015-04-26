@@ -3,13 +3,13 @@
 The main goal of this project is to gather common knowledge related with the
 processes surrounding the software engineering and development environments.
 These processes includes:
-    Knowledge management
-    Requirements elicitation and definition
-    System Design
-    System Implementation
-    Testing
-    Deployment
-    Maintenance
+* Knowledge management
+* Requirements elicitation and definition
+* System Design
+* System Implementation
+* Testing
+* Deployment
+* Maintenance
 
 In order to externalize the knowledge acquired on a useful form, the results
 will be implemented on a set of guidelines and tools that could be used
