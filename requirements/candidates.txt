@@ -1,0 +1,23 @@
+Goal: Requirements tool
+
+RID: #001
+Description: It shall be possible to add requirements
+Rationale: For when a new requirement needs to be added
+Fit-criterion:
+
+RID: #002
+Description: It shall be possible to add a description to a requirement.
+Rationale:
+Fit-criterion
+
+RID: #003
+Description: It shall be possible to add a fit-criterion to a requirement.
+Rationale:
+Fit-criterion
+
+RID: #003
+Description: It must be possible to add a rationale to a requirement.
+Rationale:
+Fit-criterion
+
+
