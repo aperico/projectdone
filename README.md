@@ -6,7 +6,8 @@ engineering and development. In order to "externalize" these experiences on an
 useful form, the results will be implemented on a set of guidelines and tools
 that can (hopefully) be used throughout software projects.
 
-I will try to develop tools and guidelines that can support on:
+The results of this project shall provide tools and guidelines that can support
+on:
 * Knowledge management
 * Requirements elicitation and definition
 * System Design
@@ -15,8 +16,10 @@ I will try to develop tools and guidelines that can support on:
 * Deployment
 * Maintenance
 
+Check out the [wiki](https://github.com/aperico/projectdone/wiki)!
 
-Check out our [wiki](https://github.com/aperico/projectdone/wiki)!
+## Interested ?!
+Any sort of help is appreciated!
 
 ##References
 * **Project Management** - http://en.wikipedia.org/wiki/Project_management
