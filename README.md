@@ -1,13 +1,12 @@
 # projectdone
 
 The main goal of this project is to simply gather in one place the results of
-experiences I had on my studies with the processes surrounding software
-engineering and development. In order to "externalize" these experiences on an
-useful form, the results will be implemented on a set of guidelines and tools
-that can (hopefully) be used throughout software projects.
+experiences I had on my studies (M.Sc. Software Engineering) with the processes
+surrounding software engineering and development. In order to "externalize"
+these experiences on an useful form, a set of guidelines and tools will be
+developed and (hopefully) could be used throughout software projects.
 
-The results of this project shall provide tools and guidelines that can support
-on:
+The results of this project shall provide support for areas like:
 * Knowledge management
 * Requirements elicitation and definition
 * System Design
@@ -16,7 +15,15 @@ on:
 * Deployment
 * Maintenance
 
+## Why ?!
+Developers (like me) tend to focus on specific tasks that sometimes are not very
+collaborative for the project goals. Hopefully with a set of supportive tools,
+this project could help us on realizing our tasks more efficiently and always
+consistent with the project goals.
+
+## Wiki
 Check out the [wiki](https://github.com/aperico/projectdone/wiki)!
+
 
 ## Interested ?!
 Any sort of help is appreciated!
