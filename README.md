@@ -1,25 +1,22 @@
 # projectdone
 
-Provides a graphical environment which supports and guides the development of a given project. The main goal of this project is to support development teams to achieve a minimum level of documentation needed for the project without pain while keeping strong structure of development during the life-cycle of the project.
+The main goal of this project is to gather common knowledge related with the
+processes surrounding the software engineering and development environments.
+These processes includes:
+    Knowledge management
+    Requirements elicitation and definition
+    System Design
+    System Implementation
+    Testing
+    Deployment
+    Maintenance
+
+In order to externalize the knowledge acquired on a useful form, the results
+will be implemented on a set of guidelines and tools that could be used
+throughout software projects in order to consistently delivery solid work
+products.
 
 Check out our [wiki](https://github.com/aperico/projectdone/wiki)!
-
-## Main features
-* Guides the team step-by-step over the different phases of development following pre-defined well-known processes e.g.: [V-Model](http://en.wikipedia.org/wiki/V-Model)
-   - Concept phase
-   - Requirements analysis and definition
-   - Architecture
-   - Design
-   - Implementation
-   - Testing
-   - Integration Test and verification
-   - System verification
-   - Validation
-* Supports generation of consistent project documentation
-* Automatic generation of work products (or part of it) following ISO2626-2 and ISO15504
-* Guides developer throughout each step of the project development processes
-* Makes it easy to develop a project aiming specific ISO certification
-    
 
 ##Dependencies
 * On Fedora:
