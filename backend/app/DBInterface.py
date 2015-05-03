@@ -40,12 +40,12 @@ class SQLIteDBInterface(DBInterface):
     def connect(self):
         self.conn = sqlite3.connect(self.dbPath)
 
-    def runsql(self,sqlcmd,commit=None):
+    def runsql(self,sqlcmd,bindings,commit=None):
         logging.info(sqlcmd)
 
         c = self.conn.cursor()
 
-        res = c.execute(sqlcmd)
+        res = c.execute(sqlcmd,bindings)
         if commit is None:
             return res
 
@@ -55,9 +55,12 @@ class SQLIteDBInterface(DBInterface):
     def disconnect(self):
         return sqlite3.connect(self.dbPath)
 
-    def fetch(self,sqlcmd):
-        c = self.conn.cursor()
-        return c.execute(sqlcmd)
+    def fetch(self, sqlcmd, bindings=None):
 
+        c = self.conn.cursor()
+        if bindings is None:
+            return c.execute(sqlcmd)
+        else:
+            return c.execute(sqlcmd, bindings)
 
 

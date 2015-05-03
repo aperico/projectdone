@@ -1,5 +1,8 @@
 Goal: Requirements tool
 
+------------------------------------------------------------------------
+Functional requirements
+------------------------------------------------------------------------
 RID: #001
 Description: It shall be possible to add requirements
 Rationale: For when a new requirement needs to be added
@@ -35,7 +38,33 @@ RID: #007
 Description: It shall be possible to assign a requirement to a specific
 project.
 Rationale: When describing a requirement, the user must choose a project in
-which the requirement shall be part ot.
+which the requirement shall be part of.
 Fit-criterion:
+
+RID: #009
+Description: It shall be possible to re-assign a requirement to a specific
+project.
+Rationale: After a requirement is already available in the system, the user
+might need to re-assign the requirement to another project.
+Fit-criterion:
+
+------------------------------------------------------------------------
+Technical Requirements
+------------------------------------------------------------------------
+RID: #008
+Description: A requirement can only be assigned to a valid existing project id.
+Rationale: When assigning a requirement to a project #RID #007, the project
+used must be valid and existing on the system.
+Fit-criterion:
+
+RID: #010
+Description: Requirements shall not be duplicated within a project scope
+Rationale: When adding (RID #001) or re-assigning (RID #007, #009) requirements
+to a specific project, the user shall not be able generate duplicated
+requirements
+Fit-criterion:
+-----------------------------------------------------------------------
+
+
 
 
