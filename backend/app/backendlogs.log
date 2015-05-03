@@ -1,0 +1,373 @@
+'2015-04-26 19:05:32,903 - main:63 <module> - --------- Started --------'
+'2015-04-26 19:05:32,904 - DBInterface:44 runsql - INSERT INTO requirements (description, rationale, fit_criterion ) VALUES('It must be possible to add new requirements 1', 'rat 2', 'fc 2') '
+'2015-04-26 19:05:32,904 - main:18 addRequirement - UNIQUE constraint failed: requirements.description'
+'2015-04-26 19:05:32,904 - main:71 <module> - ------ Finished with 0 --------'
+'2015-04-26 19:05:47,717 - main:63 <module> - --------- Started --------'
+'2015-04-26 19:05:47,718 - DBInterface:44 runsql - INSERT INTO requirements (description, rationale, fit_criterion ) VALUES('It must be possible to add new requirements 1', 'rat 2', 'fc 2') '
+'2015-04-26 19:05:47,718 - main:18 addRequirement - UNIQUE constraint failed: requirements.description'
+'2015-04-26 19:05:47,719 - main:71 <module> - ------ Finished with 0 --------'
+'2015-04-26 19:06:03,809 - main:63 <module> - --------- Started --------'
+'2015-04-26 19:06:03,810 - DBInterface:44 runsql - INSERT INTO requirements (description, rationale, fit_criterion ) VALUES('It must be possible to add new requirements 1', 'rat 2', 'fc 2') '
+'2015-04-26 19:06:03,810 - main:18 addRequirement - UNIQUE constraint failed: requirements.description'
+'2015-04-26 19:06:03,810 - main:71 <module> - ------ Finished with 0 --------
+'
+'2015-04-26 19:07:57,892 - main:60 <module> - --------- Started --------'
+'2015-04-26 19:07:57,893 - DBInterface:44 runsql - INSERT INTO requirements (description, rationale, fit_criterion ) VALUES('It must be possible to add new requirements 1', 'rat 2', 'fc 2') '
+'2015-04-26 19:07:57,893 - main:18 addRequirement - UNIQUE constraint failed: requirements.description'
+'2015-04-26 19:07:57,893 - main:68 <module> - ------ Finished with 0 --------
+'
+'2015-04-26 19:08:12,867 - main:60 <module> - --------- Started --------'
+'2015-04-26 19:08:12,867 - DBInterface:44 runsql - INSERT INTO requirements (description, rationale, fit_criterion ) VALUES('It must be possible to add new requirements 2', 'rat 2', 'fc 2') '
+'2015-04-26 19:08:12,940 - main:68 <module> - ------ Finished with 0 --------
+'
+'2015-04-26 19:10:11,364 - main:65 <module> - --------- Started --------'
+'2015-04-26 19:10:11,365 - DBInterface:44 runsql - INSERT INTO requirements (description, rationale, fit_criterion ) VALUES('It must be possible to add new requirements 2', 'rat 2', 'fc 2') '
+'2015-04-26 19:10:11,365 - main:18 addRequirement - UNIQUE constraint failed: requirements.description'
+'2015-04-26 19:10:11,366 - main:73 <module> - ------ Finished with 1 --------
+'
+'2015-04-26 19:11:52,343 - main:65 <module> - --------- Started --------'
+'2015-04-26 19:11:52,345 - main:73 <module> - ------ Finished with 0 --------
+'
+'2015-04-26 19:12:07,240 - main:65 <module> - --------- Started --------'
+'2015-04-26 19:12:12,264 - main:65 <module> - --------- Started --------'
+'2015-04-26 19:12:12,265 - DBInterface:44 runsql - INSERT INTO requirements (description, rationale, fit_criterion ) VALUES('Test requirement 3', 'rat 2', 'fc 2') '
+'2015-04-26 19:12:12,354 - main:73 <module> - ------ Finished with 0 --------
+'
+'2015-04-26 19:13:49,215 - main:71 <module> - --------- Started --------'
+'2015-04-26 19:13:49,215 - main:79 <module> - ------ Finished with 0 --------
+'
+'2015-04-26 19:13:52,107 - main:71 <module> - --------- Started --------'
+'2015-04-26 19:13:52,107 - main:79 <module> - ------ Finished with 0 --------
+'
+'2015-04-26 19:13:52,858 - main:71 <module> - --------- Started --------'
+'2015-04-26 19:13:52,859 - main:79 <module> - ------ Finished with 0 --------
+'
+'2015-04-26 19:14:03,002 - main:71 <module> - --------- Started --------'
+'2015-04-26 19:14:03,003 - DBInterface:44 runsql - INSERT INTO requirements (description, rationale, fit_criterion ) VALUES('Test requirement 4', 'rat 2', 'fc 2') '
+'2015-04-26 19:14:03,056 - main:79 <module> - ------ Finished with 0 --------
+'
+'2015-04-26 19:14:06,515 - main:71 <module> - --------- Started --------'
+'2015-04-26 19:14:06,516 - main:79 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 09:29:48,236 - main:94 <module> - --------- Started --------'
+'2015-05-03 09:29:48,239 - main:102 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 09:29:53,339 - main:94 <module> - --------- Started --------'
+'2015-05-03 09:29:53,340 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "main"."project" ("id" INTEGER PRIMARY KEY  NOT NULL  UNIQUE , "name" TEXT NOT NULL , "description" TEXT NOT NULL );'
+'2015-05-03 09:29:53,340 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "main"."requirements" ("id" INTEGER PRIMARY KEY  NOT NULL  UNIQUE , "description" TEXT UNIQUE , "rationale" TEXT, "fit_criterion" TEXT);'
+'2015-05-03 09:29:53,340 - main:102 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 09:30:49,125 - main:98 <module> - --------- Started --------'
+'2015-05-03 09:30:49,126 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "main"."project" ("id" INTEGER PRIMARY KEY  NOT NULL  UNIQUE , "name" TEXT NOT NULL , "description" TEXT NOT NULL );'
+'2015-05-03 09:30:49,126 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "main"."requirements" ("id" INTEGER PRIMARY KEY  NOT NULL  UNIQUE , "description" TEXT UNIQUE , "rationale" TEXT, "fit_criterion" TEXT);'
+'2015-05-03 09:30:49,126 - main:106 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 09:35:59,534 - main:129 <module> - --------- Started --------'
+'2015-05-03 09:36:02,307 - main:129 <module> - --------- Started --------'
+'2015-05-03 09:36:02,308 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "main"."project" ("id" INTEGER PRIMARY KEY  NOT NULL  UNIQUE , "name" TEXT NOT NULL , "description" TEXT NOT NULL );'
+'2015-05-03 09:36:02,308 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "main"."requirements" ("id" INTEGER PRIMARY KEY  NOT NULL  UNIQUE , "description" TEXT UNIQUE , "rationale" TEXT, "fit_criterion" TEXT);'
+'2015-05-03 09:36:02,308 - main:137 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 09:36:06,555 - main:129 <module> - --------- Started --------'
+'2015-05-03 09:36:10,772 - main:129 <module> - --------- Started --------'
+'2015-05-03 09:36:12,630 - main:129 <module> - --------- Started --------'
+'2015-05-03 09:36:12,631 - main:137 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 09:36:18,659 - main:129 <module> - --------- Started --------'
+'2015-05-03 09:36:18,660 - main:137 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 09:36:32,251 - main:129 <module> - --------- Started --------'
+'2015-05-03 09:36:32,251 - DBInterface:44 runsql - INSERT INTO project (name, description) VALUES('ProjectDone', 'NULL') '
+'2015-05-03 09:36:32,333 - main:137 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 09:36:58,484 - main:129 <module> - --------- Started --------'
+'2015-05-03 09:36:58,485 - DBInterface:44 runsql - INSERT INTO project (name, description) VALUES('ProjectDone', 'Containing a nice description') '
+'2015-05-03 09:36:58,561 - main:137 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 09:37:05,628 - main:129 <module> - --------- Started --------'
+'2015-05-03 09:37:05,628 - DBInterface:44 runsql - INSERT INTO project (name, description) VALUES('Project', 'NULL') '
+'2015-05-03 09:37:05,703 - main:137 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 09:37:08,060 - main:129 <module> - --------- Started --------'
+'2015-05-03 09:56:01,594 - main:150 <module> - --------- Started --------'
+'2015-05-03 09:56:05,722 - main:150 <module> - --------- Started --------'
+'2015-05-03 09:56:05,723 - main:158 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 09:59:11,589 - main:159 <module> - --------- Started --------'
+'2015-05-03 09:59:11,590 - main:167 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 09:59:26,389 - main:159 <module> - --------- Started --------'
+'2015-05-03 09:59:26,390 - main:167 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:00:01,899 - main:159 <module> - --------- Started --------'
+'2015-05-03 10:00:01,900 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project ) VALUES('test', 'rat1', 'fc 1',NULL) '
+'2015-05-03 10:00:01,900 - main:49 addRequirement - table requirement has no column named fit_criterion'
+'2015-05-03 10:00:01,900 - main:167 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:03:04,730 - main:157 <module> - --------- Started --------'
+'2015-05-03 10:03:04,731 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "project" ("id" INTEGER PRIMARY KEY  NOT NULL  UNIQUE , "name" TEXT NOT NULL , "description" TEXT NOT NULL );'
+'2015-05-03 10:03:04,731 - DBInterface:44 runsql - CREATE  TABLE  IF NOT EXISTS "requirements" ("id"  NOT NULL  UNIQUE , "description"  UNIQUE , "rationale" , "fit_criterion" , "project" )"'
+'2015-05-03 10:03:04,731 - main:24 createTables - unrecognized token: """'
+'2015-05-03 10:03:04,731 - main:165 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:03:32,461 - main:157 <module> - --------- Started --------'
+'2015-05-03 10:03:32,462 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "project" ("id" INTEGER PRIMARY KEY  NOT NULL  UNIQUE , "name" TEXT NOT NULL , "description" TEXT NOT NULL );'
+'2015-05-03 10:03:32,462 - DBInterface:44 runsql - CREATE  TABLE  IF NOT EXISTS "requirements" ("id"  NOT NULL  UNIQUE , "description"  UNIQUE , "rationale" , "fit_criterion" , "project" )"'
+'2015-05-03 10:03:32,462 - main:24 createTables - unrecognized token: """'
+'2015-05-03 10:03:32,463 - main:165 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:04:28,547 - main:157 <module> - --------- Started --------'
+'2015-05-03 10:04:28,548 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "main"."project" ("id" INTEGER PRIMARY KEY  NOT NULL  UNIQUE , "name" TEXT NOT NULL , "description" TEXT NOT NULL );'
+'2015-05-03 10:04:28,548 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "main"."requirements" ("id"  NOT NULL  UNIQUE , "description"  UNIQUE , "rationale" , "fit_criterion" , "project" );'
+'2015-05-03 10:04:28,618 - main:165 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:04:31,139 - main:157 <module> - --------- Started --------'
+'2015-05-03 10:04:31,140 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "main"."project" ("id" INTEGER PRIMARY KEY  NOT NULL  UNIQUE , "name" TEXT NOT NULL , "description" TEXT NOT NULL );'
+'2015-05-03 10:04:31,140 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "main"."requirements" ("id"  NOT NULL  UNIQUE , "description"  UNIQUE , "rationale" , "fit_criterion" , "project" );'
+'2015-05-03 10:04:31,140 - main:165 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:04:42,268 - main:157 <module> - --------- Started --------'
+'2015-05-03 10:04:42,269 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project ) VALUES('test', 'rat1', 'fc 1',NULL) '
+'2015-05-03 10:04:42,269 - main:50 addRequirement - no such table: requirement'
+'2015-05-03 10:04:42,269 - main:165 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:05:54,184 - main:157 <module> - --------- Started --------'
+'2015-05-03 10:05:54,185 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "main"."project" ("id" INTEGER PRIMARY KEY  NOT NULL  UNIQUE , "name" TEXT NOT NULL , "description" TEXT NOT NULL );'
+'2015-05-03 10:05:54,185 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "main"."requirements" ("id"  NOT NULL  UNIQUE , "description"  UNIQUE , "rationale" , "fit_criterion" , "project_id" );'
+'2015-05-03 10:05:54,268 - main:165 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:05:57,750 - main:157 <module> - --------- Started --------'
+'2015-05-03 10:05:57,750 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id ) VALUES('test', 'rat1', 'fc 1',NULL) '
+'2015-05-03 10:05:57,751 - main:50 addRequirement - no such table: requirement'
+'2015-05-03 10:05:57,751 - main:165 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:06:50,350 - main:157 <module> - --------- Started --------'
+'2015-05-03 10:06:50,351 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id ) VALUES('test', 'rat1', 'fc 1',NULL) '
+'2015-05-03 10:06:50,351 - main:50 addRequirement - NOT NULL constraint failed: requirement.id'
+'2015-05-03 10:06:50,351 - main:165 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:10:33,970 - main:157 <module> - --------- Started --------'
+'2015-05-03 10:10:33,971 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "project" ("id" INTEGER PRIMARY KEY  NOT NULL  UNIQUE , "name" TEXT NOT NULL , "description" TEXT NOT NULL );'
+'2015-05-03 10:10:33,971 - DBInterface:44 runsql - CREATE TABLE  IF NOT EXISTS "requirement" ("id" INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL  UNIQUE , "description" TEXT NOT NULL  UNIQUE , "rationale" TEXT, "fit_criterion" TEXT, "project_id" INTEGER)'
+'2015-05-03 10:10:33,971 - main:165 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:10:36,994 - main:157 <module> - --------- Started --------'
+'2015-05-03 10:10:36,995 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id ) VALUES('test', 'rat1', 'fc 1',NULL) '
+'2015-05-03 10:10:37,061 - main:165 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:10:52,923 - main:157 <module> - --------- Started --------'
+'2015-05-03 10:10:52,924 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id ) VALUES('test', 'rat1', 'fc 1',NULL) '
+'2015-05-03 10:10:52,924 - main:50 addRequirement - UNIQUE constraint failed: requirement.description'
+'2015-05-03 10:10:52,924 - main:165 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:27:02,285 - main:196 <module> - --------- Started --------'
+'2015-05-03 10:27:02,286 - main:204 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:27:04,757 - main:196 <module> - --------- Started --------'
+'2015-05-03 10:27:13,974 - main:196 <module> - --------- Started --------'
+'2015-05-03 10:27:35,570 - main:196 <module> - --------- Started --------'
+'2015-05-03 10:27:35,571 - main:204 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:27:52,670 - main:196 <module> - --------- Started --------'
+'2015-05-03 10:28:14,327 - main:196 <module> - --------- Started --------'
+'2015-05-03 10:28:27,332 - main:197 <module> - --------- Started --------'
+'2015-05-03 10:28:27,333 - main:205 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:29:21,857 - main:197 <module> - --------- Started --------'
+'2015-05-03 10:29:42,984 - main:198 <module> - --------- Started --------'
+'2015-05-03 10:30:53,210 - main:198 <module> - --------- Started --------'
+'2015-05-03 10:30:53,211 - main:206 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:31:44,682 - main:199 <module> - --------- Started --------'
+'2015-05-03 10:31:44,683 - main:207 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:37:09,825 - main:200 <module> - --------- Started --------'
+'2015-05-03 10:37:09,826 - main:208 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:37:37,404 - main:200 <module> - --------- Started --------'
+'2015-05-03 10:37:37,405 - main:208 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:38:05,246 - main:200 <module> - --------- Started --------'
+'2015-05-03 10:38:05,247 - main:208 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:38:07,194 - main:200 <module> - --------- Started --------'
+'2015-05-03 10:38:07,195 - main:208 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:41:29,270 - main:204 <module> - --------- Started --------'
+'2015-05-03 10:42:07,054 - main:205 <module> - --------- Started --------'
+'2015-05-03 10:42:31,446 - main:205 <module> - --------- Started --------'
+'2015-05-03 10:42:31,447 - main:213 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:44:29,827 - main:207 <module> - --------- Started --------'
+'2015-05-03 10:44:29,828 - main:215 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:44:39,545 - main:207 <module> - --------- Started --------'
+'2015-05-03 10:44:39,546 - main:215 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:53:09,371 - main:268 <module> - --------- Started --------'
+'2015-05-03 10:53:09,372 - main:276 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:53:12,067 - main:268 <module> - --------- Started --------'
+'2015-05-03 10:53:12,071 - main:276 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:53:25,703 - main:268 <module> - --------- Started --------'
+'2015-05-03 10:53:27,823 - main:268 <module> - --------- Started --------'
+'2015-05-03 10:53:27,824 - main:276 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:53:33,948 - main:268 <module> - --------- Started --------'
+'2015-05-03 10:53:33,949 - main:276 <module> - ------ Finished with 2 --------
+'
+'2015-05-03 10:53:38,627 - main:268 <module> - --------- Started --------'
+'2015-05-03 10:53:38,628 - DBInterface:44 runsql - UPDATE "requirement" SET "project_id" = ? WHERE "id" = ?'
+'2015-05-03 10:53:38,709 - main:276 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:53:48,371 - main:268 <module> - --------- Started --------'
+'2015-05-03 10:53:48,372 - DBInterface:44 runsql - UPDATE "requirement" SET "project_id" = ? WHERE "id" = ?'
+'2015-05-03 10:53:48,460 - main:276 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:54:00,555 - main:268 <module> - --------- Started --------'
+'2015-05-03 10:54:00,556 - DBInterface:44 runsql - UPDATE "requirement" SET "project_id" = ? WHERE "id" = ?'
+'2015-05-03 10:54:00,644 - main:276 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:55:31,741 - main:269 <module> - --------- Started --------'
+'2015-05-03 10:55:31,742 - DBInterface:44 runsql - UPDATE "requirement" SET "project_id" = ? WHERE "id" = ?'
+'2015-05-03 10:55:31,828 - main:277 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:56:21,846 - main:269 <module> - --------- Started --------'
+'2015-05-03 10:56:21,847 - DBInterface:44 runsql - UPDATE "requirement" SET "project_id" = ? WHERE "id" = ?'
+'2015-05-03 10:56:21,932 - main:277 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:56:38,879 - main:269 <module> - --------- Started --------'
+'2015-05-03 10:56:38,880 - DBInterface:44 runsql - UPDATE "requirement" SET "project_id" = ? WHERE "id" = ?'
+'2015-05-03 10:56:38,967 - main:277 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:56:51,394 - main:269 <module> - --------- Started --------'
+'2015-05-03 10:56:51,396 - DBInterface:44 runsql - UPDATE "requirement" SET "project_id" = ? WHERE "id" = ?'
+'2015-05-03 10:56:51,485 - main:277 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:57:06,801 - main:269 <module> - --------- Started --------'
+'2015-05-03 10:57:06,802 - DBInterface:44 runsql - UPDATE "requirement" SET "project_id" = ? WHERE "id" = ?'
+'2015-05-03 10:57:06,887 - main:277 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 10:57:18,692 - main:269 <module> - --------- Started --------'
+'2015-05-03 10:57:18,693 - main:108 assignProjectToRequirement - Could not find project id 5'
+'2015-05-03 10:57:18,693 - main:277 <module> - ------ Finished with 2 --------
+'
+'2015-05-03 10:57:36,024 - main:269 <module> - --------- Started --------'
+'2015-05-03 10:57:36,025 - main:108 assignProjectToRequirement - Could not find project id 5'
+'2015-05-03 10:57:36,025 - main:277 <module> - ------ Finished with 2 --------
+'
+'2015-05-03 10:57:52,385 - main:269 <module> - --------- Started --------'
+'2015-05-03 10:57:52,386 - main:50 addRequirement - Could not find project id 5'
+'2015-05-03 10:57:52,386 - main:277 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 10:57:55,408 - main:269 <module> - --------- Started --------'
+'2015-05-03 10:57:55,409 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 10:57:55,409 - main:59 addRequirement - UNIQUE constraint failed: requirement.description'
+'2015-05-03 10:57:55,409 - main:277 <module> - ------ Finished with 2 --------
+'
+'2015-05-03 10:58:29,905 - main:269 <module> - --------- Started --------'
+'2015-05-03 10:58:29,906 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 10:58:29,906 - main:59 addRequirement - UNIQUE constraint failed: requirement.description'
+'2015-05-03 10:58:29,906 - main:277 <module> - ------ Finished with 2 --------
+'
+'2015-05-03 10:58:33,257 - main:269 <module> - --------- Started --------'
+'2015-05-03 10:58:33,258 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 10:58:33,258 - main:59 addRequirement - UNIQUE constraint failed: requirement.description'
+'2015-05-03 10:58:33,258 - main:277 <module> - ------ Finished with 2 --------
+'
+'2015-05-03 11:10:48,519 - main:270 <module> - --------- Started --------'
+'2015-05-03 11:10:48,520 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 11:10:48,520 - main:60 addRequirement - no such table: requirement'
+'2015-05-03 11:10:48,520 - main:278 <module> - ------ Finished with 2 --------
+'
+'2015-05-03 11:10:58,007 - main:270 <module> - --------- Started --------'
+'2015-05-03 11:10:58,008 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 11:10:58,008 - main:60 addRequirement - no such table: requirement'
+'2015-05-03 11:10:58,008 - main:278 <module> - ------ Finished with 2 --------
+'
+'2015-05-03 11:11:18,383 - main:270 <module> - --------- Started --------'
+'2015-05-03 11:11:18,384 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 11:11:18,476 - main:278 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 11:11:20,522 - main:270 <module> - --------- Started --------'
+'2015-05-03 11:11:20,523 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 11:11:20,523 - main:60 addRequirement - UNIQUE constraint failed: requirement.description'
+'2015-05-03 11:11:20,524 - main:278 <module> - ------ Finished with 2 --------
+'
+'2015-05-03 11:11:34,447 - main:270 <module> - --------- Started --------'
+'2015-05-03 11:11:34,448 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 11:11:34,448 - main:60 addRequirement - UNIQUE constraint failed: requirement.description'
+'2015-05-03 11:11:34,448 - main:278 <module> - ------ Finished with 2 --------
+'
+'2015-05-03 11:11:38,980 - main:270 <module> - --------- Started --------'
+'2015-05-03 11:11:38,981 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 11:11:38,982 - main:60 addRequirement - UNIQUE constraint failed: requirement.description'
+'2015-05-03 11:11:38,982 - main:278 <module> - ------ Finished with 2 --------
+'
+'2015-05-03 11:12:34,560 - main:270 <module> - --------- Started --------'
+'2015-05-03 11:12:34,562 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 11:12:34,650 - main:278 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 11:12:36,307 - main:270 <module> - --------- Started --------'
+'2015-05-03 11:12:36,308 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 11:12:36,396 - main:278 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 11:12:39,880 - main:270 <module> - --------- Started --------'
+'2015-05-03 11:12:39,881 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 11:12:39,967 - main:278 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 11:13:34,457 - main:270 <module> - --------- Started --------'
+'2015-05-03 11:13:34,458 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 11:13:34,536 - main:278 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 11:13:35,443 - main:270 <module> - --------- Started --------'
+'2015-05-03 11:13:35,444 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 11:13:35,444 - main:60 addRequirement - UNIQUE constraint failed: requirement.description, requirement.project_id'
+'2015-05-03 11:13:35,444 - main:278 <module> - ------ Finished with 2 --------
+'
+'2015-05-03 11:13:37,754 - main:270 <module> - --------- Started --------'
+'2015-05-03 11:13:37,755 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 11:13:37,844 - main:278 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 11:13:39,026 - main:270 <module> - --------- Started --------'
+'2015-05-03 11:13:39,027 - DBInterface:44 runsql - INSERT INTO requirement (description, rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 11:13:39,027 - main:60 addRequirement - UNIQUE constraint failed: requirement.description, requirement.project_id'
+'2015-05-03 11:13:39,027 - main:278 <module> - ------ Finished with 2 --------
+'
+'2015-05-03 13:33:50,591 - main:270 <module> - --------- Started --------'
+'2015-05-03 13:33:50,626 - main:278 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 13:45:55,984 - main:270 <module> - --------- Started --------'
+'2015-05-03 13:45:55,987 - main:278 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 13:46:08,170 - main:270 <module> - --------- Started --------'
+'2015-05-03 13:46:48,189 - main:270 <module> - --------- Started --------'
+'2015-05-03 13:47:22,483 - main:270 <module> - --------- Started --------'
+'2015-05-03 13:47:54,755 - main:270 <module> - --------- Started --------'
+'2015-05-03 13:48:56,866 - main:273 <module> - --------- Started --------'
+'2015-05-03 13:49:43,654 - main:274 <module> - --------- Started --------'
+'2015-05-03 13:50:31,150 - main:274 <module> - --------- Started --------'
+'2015-05-03 13:51:29,001 - main:274 <module> - --------- Started --------'
+'2015-05-03 13:51:51,633 - main:274 <module> - --------- Started --------'
+'2015-05-03 13:52:15,796 - main:274 <module> - --------- Started --------'
+'2015-05-03 13:52:15,797 - main:52 addRequirement - Could not find project id NULL'
+'2015-05-03 13:52:15,797 - main:282 <module> - ------ Finished with 1 --------
+'
+'2015-05-03 13:53:41,227 - main:276 <module> - --------- Started --------'
+'2015-05-03 13:53:42,819 - main:276 <module> - --------- Started --------'
+'2015-05-03 13:53:54,918 - main:276 <module> - --------- Started --------'
+'2015-05-03 13:53:54,919 - DBInterface:44 runsql - INSERT INTO requirement (description,                                 rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 13:53:54,995 - main:284 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 13:54:07,620 - main:276 <module> - --------- Started --------'
+'2015-05-03 13:54:07,621 - DBInterface:44 runsql - INSERT INTO requirement (description,                                 rationale, fit_criterion, project_id )                                 VALUES(?,?,?,?)'
+'2015-05-03 13:54:07,621 - main:61 addRequirement - UNIQUE constraint failed: requirement.description, requirement.project_id'
+'2015-05-03 13:54:07,622 - main:284 <module> - ------ Finished with 2 --------
+'
+'2015-05-03 14:13:30,777 - main:278 <module> - --------- Started --------'
+'2015-05-03 14:13:30,781 - main:286 <module> - ------ Finished with 0 --------
+'
+'2015-05-03 14:13:50,769 - main:278 <module> - --------- Started --------'
+'2015-05-03 14:13:50,772 - main:286 <module> - ------ Finished with 0 --------
+'
